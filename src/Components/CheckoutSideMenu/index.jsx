@@ -20,6 +20,7 @@ const CheckoutSideMenu = () => {
             products: context.cartProducts,
             totalProducts: context.cartProducts.length,
             totalPrice: totalPrice(context.cartProducts)
+            
         }
 
         context.setOrder([...context.order, orderToAdd])
@@ -37,7 +38,7 @@ const CheckoutSideMenu = () => {
                 </div>
             </div>
             <div className='px-6 overflow-y-scroll flex-1'>
-                {context.cartProducts.map(product => (
+                {context.cartProducts.map(product => 
                     <OrderCard
                         key={product.id}
                         id={product.id}
@@ -45,8 +46,10 @@ const CheckoutSideMenu = () => {
                         imageUrl={product.images[0]}
                         price={product.price}
                         handleDelete={handleDelete}
-                    />
-                ))}
+                        />
+                    
+                )
+            }
             </div>
             <div className='p-6'>
                 <p className='flex justify-between items-center mb-2'>

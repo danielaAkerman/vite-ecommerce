@@ -6,7 +6,7 @@ const OrdersCard = props => {
 
     return (
         <div className="flex justify-between items-center mb-4 border border-black">
-            <p>
+            <p className='flex flex-col'>
                 <span>24.01.25</span>
                 <span>{totalProducts}</span>
                 <span>{totalPrice}</span>
