@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "title": "Asd",
+    "price": 98,
+    "description": "Experience ultimate comfort with our red jogger sweatpants, perfect for both workout sessions and lounging around the house. Made with soft, durable fabric, these joggers feature a snug waistband, adjustable drawstring, and practical side pockets for functionality. Their tapered design and elastic cuffs offer a modern fit that keeps you looking stylish on the go.",
+    "images": "https://i.pinimg.com/736x/70/e9/15/70e9154b5311202830290fd4bd1dc02e.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Clothes"
+  },
+  {
+    "id": 2,
+    "title": "Zapatillas",
+    "price": 98,
+    "description": "Zapatillas Zapatillas.",
+    "images": "https://i.pinimg.com/736x/2e/6c/4c/2e6c4cf8f8d82a531757c0c109474346.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Clothes"
+  },
+  {
+    "id": 15,
+    "title": "Joya15",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/88/80/2b/88802bfc40b857c384fd477fe7525fdb.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 16,
+    "title": "Joya16",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/e0/ff/c9/e0ffc9babb0ef4879f2736e3f1593945.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 3,
+    "title": "Headset",
+    "price": 98,
+    "description": "headseeet.",
+    "images": "https://i.pinimg.com/736x/28/b3/a1/28b3a1eb2f7a1fc2098127ede7f7b958.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "title": "Celu rosa",
+    "price": 98,
+    "description": "Celuuuuu",
+    "images": "https://i.pinimg.com/736x/f2/eb/b9/f2ebb93252c1f53bb0ff824fa3862bfd.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": 14,
+    "title": "Joya14",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/21/e5/79/21e57902d9445f17a02d15841c2570b7.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 5,
+    "title": "Silla rosa",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/ff/84/5a/ff845ad67f25095ab0156229b2a44cbf.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Furnitures"
+  },
+  {
+    "id": 6,
+    "title": "Short de Jean",
+    "price": 98,
+    "description": "Experience ultimate comfort with our red jogger sweatpants, perfect for both workout sessions and lounging around the house. Made with soft, durable fabric, these joggers feature a snug waistband, adjustable drawstring, and practical side pockets for functionality. Their tapered design and elastic cuffs offer a modern fit that keeps you looking stylish on the go.",
+    "images": "https://i.pinimg.com/736x/97/4e/44/974e44751a8ee7c6e1e700c11e60ca2d.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Clothes"
+  },
+  {
+    "id": 7,
+    "title": "Jean",
+    "price": 98,
+    "description": "Zapatillas Zapatillas.",
+    "images": "https://i.pinimg.com/736x/93/9f/5d/939f5da20124d33ad5679669a2db02c4.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Clothes"
+  },
+  {
+    "id": 8,
+    "title": "Headset",
+    "price": 98,
+    "description": "headseeet.",
+    "images": "https://i.pinimg.com/736x/1b/39/2d/1b392d3c28417048fc20cfe211ee1676.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": 9,
+    "title": "Teclado",
+    "price": 98,
+    "description": "Celuuuuu",
+    "images": "https://i.pinimg.com/736x/c1/0a/7d/c10a7d4bf2b06552f28fbf752973d21f.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Electronics"
+  },
+  {
+    "id": 10,
+    "title": "Camisa Rosa",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/59/af/35/59af356aeedffd849ebdfab57c023456.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Clothes"
+  },
+  {
+    "id": 11,
+    "title": "Joya11",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/dc/fb/5f/dcfb5fcdcea5fda77266317e495d678c.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 12,
+    "title": "Joya12",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/67/ce/02/67ce027afdc29032e19023fe89f19ce5.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 13,
+    "title": "Joya13",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/8e/2f/8b/8e2f8b7932bb99c061bef21be7221850.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 17,
+    "title": "Joya17",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/7c/d1/2b/7cd12bd4848e4a7267d42d349d216fea.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 18,
+    "title": "Joya18",
+    "price": 98,
+    "description": "SILLAAAAAA",
+    "images": "https://i.pinimg.com/736x/18/62/79/18627950bfcd512ba2b0f53813853ffc.jpg",
+    "creationAt": "2025-02-01T12:20:50.000Z",
+    "updatedAt": "2025-02-01T12:20:50.000Z",
+    "category": "Jewelry"
+  },
+  {
+    "id": 571331,
+    "title": "Patines California",
+    "category": "clothes",
+    "subcategory": "Patines",
+    "gender": "Mujer",
+    "price": 45,
+    "stock": 250,
+    "description": "Patines de 4 ruedas y freno frontal, de piel sintética orange, ruedas magenta y detalles en oro",
+    "images": "https://i.pinimg.com/736x/9f/b1/f1/9fb1f16d3f66715820060b4c9ae746b3.jpg"
+    
+  },
+  {
+    "id": 189278,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Zapatillas",
+    "gender": "Mujer",
+    "price": 42,
+    "stock": 500,
+    "description": "Zapatillas deportivas en tono light camel.",
+    "images": "https://i.pinimg.com/736x/28/45/73/284573257cde90a0380770184a9a7e38.jpg"
+    
+  },
+  {
+    "id": 61681,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Zapatillas",
+    "gender": null,
+    "price": null,
+    "stock": 500,
+    "description": null,
+    "images": "https://i.pinimg.com/736x/7a/ca/b3/7acab324290a6d0acc4664c364165744.jpg"
+    
+  },
+  {
+    "id": 858954,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Bolsos",
+    "gender": "Mujer",
+    "price": 29,
+    "stock": 500,
+    "description": "Bolso hawaiano con cierres y divisiones internas.",
+    "images": "https://i.pinimg.com/736x/c9/91/64/c99164a75a6e239c8adf85b7dce9f9e9.jpg"
+    
+  },
+  {
+    "id": 56642,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Cabello",
+    "gender": "Mujer",
+    "price": 7.99,
+    "stock": 500,
+    "description": "Lazo estilo bandana estilo tropical anudado.",
+    "images": "https://i.pinimg.com/736x/e0/b6/be/e0b6bed0ba9a9a96585de421de755a8f.jpg"
+    
+  },
+  {
+    "id": 347852,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Cabello",
+    "gender": "Mujer",
+    "price": 7.99,
+    "stock": 500,
+    "description": "Lazo estilo bandana estilo tropical anudado.",
+    "images": "https://i.pinimg.com/736x/b9/f8/e5/b9f8e545c95015f507ae784bab3ed0ab.jpg"
+    
+  },
+  {
+    "id": 112044,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Cabello",
+    "gender": "Mujer",
+    "price": 7.99,
+    "stock": 500,
+    "description": "Lazo estilo bandana estilo tropical anudado.",
+    "images": "https://i.pinimg.com/736x/6a/1c/45/6a1c45fc22aac06dc1a3983816725de2.jpg"
+    
+  },
+  {
+    "id": 775008,
+    "title": "Summer Bandana",
+    "category": "clothes",
+    "subcategory": "Cabello",
+    "gender": "Mujer",
+    "price": 7.99,
+    "stock": 500,
+    "description": "Lazo estilo bandana estilo tropical anudado.",
+    "images": "https://i.pinimg.com/736x/ef/29/92/ef2992cece5f5b492a3b24143bd3fc9e.jpg"
+    
+  },
+  {
+    "id": 740361,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Trajes de baño",
+    "gender": "Mujer",
+    "price": 18,
+    "stock": 500,
+    "description": "Traje de baño de dos piezas en tono verde oscuro y dorado.",
+    "images": "https://i.pinimg.com/736x/0b/c7/be/0bc7be8fd9fcfdc94f3bce82fae55f3f.jpg"
+    
+  },
+  {
+    "id": 585147,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Trajes de baño",
+    "gender": "Mujer",
+    "price": 21,
+    "stock": 500,
+    "description": "Traje de baño de dos piezas en tono verde oscuro y dorado.",
+    "images": "https://i.pinimg.com/736x/c1/5c/43/c15c434d0ed024da109743c0d0db2d16.jpg"
+    
+  },
+  {
+    "id": 719205,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Trajes de baño",
+    "gender": "Mujer",
+    "price": 16,
+    "stock": 500,
+    "description": "Traje de baño de dos piezas en tono verde oscuro y dorado.",
+    "images": "https://i.pinimg.com/736x/1a/1f/4f/1a1f4f3a8dd9b7e7beb9a95b943d2676.jpg"
+    
+  },
+  {
+    "id": 504682,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Trajes de baño",
+    "gender": "Mujer",
+    "price": 18,
+    "stock": 500,
+    "description": "Traje de baño de dos piezas en tono verde oscuro y dorado.",
+    "images": "https://i.pinimg.com/736x/0b/c7/be/0bc7be8fd9fcfdc94f3bce82fae55f3f.jpg"
+    
+  },
+  {
+    "id": 235188,
+    "title": "sdkfbskdfbksdjfb",
+    "category": "clothes",
+    "subcategory": "Gorras",
+    "gender": "Mujer",
+    "price": null,
+    "stock": 500,
+    "description": null,
+    "images": "https://i.pinimg.com/736x/f1/cc/f0/f1ccf0c7d4dcff41e3378b2c47116ef4.jpg"
+    
+  }
+]

@@ -7,22 +7,18 @@ import { ShoppingCartContext } from '../../Context'
 function Home() {
   const context = useContext(ShoppingCartContext)
 
+  // ARREGLAR ESTO PARA FILTRAR POR CATEGORÍA
   const renderView = () => {
-    if (context.searchByTitle?.length > 0) {
-      if (context.filteredItems?.length > 0) {
-        return (
-          context.filteredItems?.map((item) => (<Card key={item.id} data={item} />))
-        )
-      } else {
-        return (
-          <div>We don't have anything 😞</div>
-        )
-      }
+    if (context.filteredItems?.length > 0) {
+      return (
+        context.filteredItems?.map((item) => (<Card key={item.id} data={item} />))
+      )
     } else {
       return (
-        context.items?.map((item) => (<Card key={item.id} data={item} />))
+        <div>We don't have anything 😞</div>
       )
     }
+
   }
 
   return (
