@@ -39,7 +39,7 @@ export const ShoppingCartProvider = ({ children }) => {
 
     useEffect(() => {
         // fetch('https://api.escuelajs.co/api/v1/products')
-        fetch('http://localhost:5173/data1.json')
+        fetch('https://mintgold-ecommerce.vercel.app/data1.json')
             .then(response => response.json())
             .then(data => setItems(data))
     }, [])
