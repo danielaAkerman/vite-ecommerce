@@ -2,7 +2,33 @@ import { createContext, useState, useEffect } from 'react'
 
 export const ShoppingCartContext = createContext()
 
+export const initializeLocalStorage = () => {
+    const accountInLocalStorage = localStorage.getItem('account')
+    const signOutLocalStorage = localStorage.getItem('sign-out')
+    let parsedAccount
+    let parsedSignOut
+
+    if (!accountInLocalStorage) {
+        localStorage.setItem('account', JSON.stringify({}))
+        parsedAccount = {}
+    } else {
+        parsedAccount = JSON.parse(accountInLocalStorage)
+    }
+
+    if (!signOutLocalStorage) {
+        localStorage.setItem('sign-out', JSON.stringify(true))
+        parsedSignOut = true
+    } else {
+        parsedSignOut = JSON.parse(signOutLocalStorage)
+    }
+}
+
 export const ShoppingCartProvider = ({ children }) => {
+    // My account
+    const [account, setAccount] = useState({})
+
+    // Sign out
+    const [signOut, setSignOut] = useState(false)
 
     // Product Detail · Increment quantity
     const [count, setCount] = useState(0)
@@ -39,7 +65,8 @@ export const ShoppingCartProvider = ({ children }) => {
 
     useEffect(() => {
         // fetch('https://api.escuelajs.co/api/v1/products')
-        fetch('https://mintgold-ecommerce.vercel.app/data1.json')
+        // fetch('http://localhost:5173/data1.json')
+            fetch('https://mintgold-ecommerce.vercel.app/data1.json')
             .then(response => response.json())
             .then(data => setItems(data))
     }, [])
@@ -68,6 +95,8 @@ export const ShoppingCartProvider = ({ children }) => {
 
     return (
         <ShoppingCartContext.Provider value={{
+            account, setAccount,
+            signOut, setSignOut,
             count, setCount,
             isProductDetailOpen, openProductDetail, closeProductDetail,
             isCheckoutSideMenuOpen, openCheckoutSideMenu, closeCheckoutSideMenu,

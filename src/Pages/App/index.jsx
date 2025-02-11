@@ -8,6 +8,7 @@ import { NotFound } from "../NotFound"
 import { SignIn } from "../SignIn"
 import { Navbar } from "../../Components/Navbar"
 import { CheckoutSideMenu } from "../../Components/CheckoutSideMenu"
+import { initializeLocalStorage } from "../../Context"
 import './App.css'
 
 const AppRoutes = () => {
@@ -32,6 +33,8 @@ const AppRoutes = () => {
 }
 
 const App = () => {
+  
+  initializeLocalStorage()
 
   return (
     <ShoppingCartProvider>
