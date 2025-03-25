@@ -66,9 +66,10 @@ export const ShoppingCartProvider = ({ children }) => {
     useEffect(() => {
         // fetch('https://api.escuelajs.co/api/v1/products')
         // fetch('http://localhost:5173/data1.json')
-            fetch('https://mintgold-ecommerce.vercel.app/data1.json')
+        // fetch('https://mintgold-ecommerce.vercel.app/data1.json')
+            fetch('https://ecommerce-api-rho-ecru.vercel.app/api/product-features')
             .then(response => response.json())
-            .then(data => setItems(data))
+            .then(data => setItems(data.products))
     }, [])
 
     const filteredItemsByTitle = (items, searchByTitle) => {
